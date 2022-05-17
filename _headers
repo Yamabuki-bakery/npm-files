@@ -12,5 +12,5 @@ https://*.galgamer.eu.org/*
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
    
 /npm/*
-  Cache-Control: public, max-age=2500000
+  Cache-Control: public, max-age=0, must-revalidate
   
