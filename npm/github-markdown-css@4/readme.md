@@ -2,8 +2,6 @@
 
 > The minimal amount of CSS to replicate the GitHub Markdown style
 
-**The CSS is generated. Contributions should go to [this repo](https://github.com/sindresorhus/generate-github-markdown-css).**
-
 [<img src="https://cloud.githubusercontent.com/assets/170270/5219062/f22a978c-7685-11e4-8316-af25b6c89bc0.png" width="300">](http://sindresorhus.com/github-markdown-css)
 
 ## [Demo](https://sindresorhus.com/github-markdown-css)
@@ -44,15 +42,7 @@ Import the `github-markdown.css` file and add a `markdown-body` class to the con
 </article>
 ```
 
-If you want code syntax highlighted, use GitHub Flavored Markdown rendered from [GitHub's `/markdown` API](https://docs.github.com/en/free-pro-team@latest/rest/reference/markdown).
-
-There are 3 themes provided in this package:
-
-- **github-markdown.css**: (default) Automatically switches between light and dark through [`@media (prefers-color-scheme)`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme).
-- **github-markdown-light.css**: Light-only.
-- **github-markdown-dark.css**: Dark-only.
-
-You may know that now GitHub supports more than 2 themes including `dark_dimmed`, `dark_high_contrast` and `colorblind` variants. If you want to try these themes, you can generate them on your own! See next section.
+If you want code syntax highlighted, use GitHub Flavored Markdown rendered from [GitHub's `/markdown` API](https://developer.github.com/v3/markdown/).
 
 ## How
 

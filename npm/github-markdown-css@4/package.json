@@ -1,6 +1,6 @@
 {
 	"name": "github-markdown-css",
-	"version": "5.1.0",
+	"version": "4.0.0",
 	"description": "The minimal amount of CSS to replicate the GitHub Markdown style",
 	"license": "MIT",
 	"repository": "sindresorhus/github-markdown-css",
@@ -12,15 +12,10 @@
 	},
 	"main": "github-markdown.css",
 	"scripts": {
-		"make:light": "github-markdown-css --type light > github-markdown-light.css",
-		"make:dark": "github-markdown-css --type dark > github-markdown-dark.css",
-		"make:auto": "github-markdown-css --type auto > github-markdown.css",
-		"make": "npm run make:light && npm run make:dark && npm run make:auto"
+		"make": "github-markdown-css > github-markdown.css"
 	},
 	"files": [
-		"github-markdown.css",
-		"github-markdown-dark.css",
-		"github-markdown-light.css"
+		"github-markdown.css"
 	],
 	"keywords": [
 		"browser",
@@ -32,6 +27,6 @@
 		"stylesheet"
 	],
 	"devDependencies": {
-		"generate-github-markdown-css": "^5.0.1"
+		"generate-github-markdown-css": "^4.0.0"
 	}
 }
