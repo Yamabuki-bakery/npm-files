@@ -1,0 +1,16 @@
+/*
+  X-Frame-Options: DENY
+  Access-Control-Allow-Origin: *.hikarifield.eu.org
+  
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://galgamer.eu.org/*
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  
+https://*.galgamer.eu.org/*
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+   
+/npm/*
+  Cache-Control: public, max-age=2500000
+  
